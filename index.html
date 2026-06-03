@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheldon Sharp Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Mobile fallback background image -->
+    <div class="mobile-background"></div>
+
+    <!-- Desktop / supported browser video background -->
+    <video autoplay
+           muted
+           loop
+           playsinline
+           webkit-playsinline
+           preload="auto"
+           id="background-video">
+        <source src="videos/hero-video.mp4" type="video/mp4">
+    </video>
+
+    <div id="video-overlay"></div>
+
+    <nav id="navbar">
+        <div class="logo">Sheldon<span>Sharp</span></div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>bool IsAlive();</h1>
+        <p>Game Developer • Software Engineer • App Developer • IT Automation</p>
+        <a href="#projects" class="hero-btn">View My Work</a>
+    </section>
+
+    <section class="video-break"></section>
+
+    <section id="projects" class="content-section fade-in">
+        <h2>My <span>Work</span></h2>
+        <p class="section-intro">
+            Projects I have built across game engines, graphics programming, and app development.
+        </p>
+
+        <div class="project-grid">
+            <div class="project-card fade-in">
+                <div class="project-image placeholder">UNREAL</div>
+                <div class="project-info">
+                    <h3>Unreal Engine</h3>
+                    <p>Gameplay systems, AI behavior, combat, weapons, levels, and interactive 2D/3D game projects.</p>
+                    <a href="#">View Projects</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image placeholder">UNITY</div>
+                <div class="project-info">
+                    <h3>Unity Development</h3>
+                    <p>Character controllers, enemy AI, pickups, UI systems, mobile prototypes, and gameplay mechanics.</p>
+                    <a href="#">View Projects</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image placeholder">VULKAN</div>
+                <div class="project-info">
+                    <h3>Vulkan Graphics</h3>
+                    <p>Custom rendering, shaders, lighting, texture mapping, model loading, and graphics pipelines.</p>
+                    <a href="#">View Projects</a>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-image placeholder">APP DEV</div>
+                <div class="project-info">
+                    <h3>App Development</h3>
+                    <p>Flutter, Kotlin, barcode scanning, pantry inventory tools, mobile apps, and backend integrations.</p>
+                    <a href="#">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-break"></section>
+
+    <section id="about" class="content-section split-section fade-in">
+        <div>
+            <h2>About <span>Me</span></h2>
+
+            <p>
+                I'm Sheldon Sharp, a Full Sail University Game Development graduate who loves building cool things with code.
+                From video games and mobile apps to graphics programming and business automation, I'm always looking for the
+                next challenge to tackle.
+            </p>
+
+            <br>
+
+            <p>
+                I work with C++, C#, Unreal Engine, Unity, Vulkan, Flutter, Kotlin, SQL, and Python, creating everything from
+                custom software solutions to interactive experiences. My passion is taking an idea from a sketch on a whiteboard
+                and turning it into something people can actually use.
+            </p>
+
+            <br>
+
+            <p>
+                I firmly believe that if a task is repetitive, it should be automated. If a game mechanic is fun, it can always
+                be made more fun. And if there's a bug hiding somewhere in the code, I'll eventually find it—usually at 2 AM.
+            </p>
+        </div>
+
+        <div class="stats-box">
+            <div>
+                <strong>4</strong>
+                <span>Main Development Areas</span>
+            </div>
+            <div>
+                <strong>10+</strong>
+                <span>Technologies Used</span>
+            </div>
+            <div>
+                <strong>∞</strong>
+                <span>Ideas Still To Build</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-break"></section>
+
+    <section id="skills" class="content-section fade-in">
+        <h2>My <span>Skills</span></h2>
+
+        <div class="skills-grid">
+            <span>C++</span>
+            <span>C#</span>
+            <span>Unreal Engine</span>
+            <span>Unity</span>
+            <span>Vulkan</span>
+            <span>Flutter</span>
+            <span>Kotlin</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>HTML / CSS / JavaScript</span>
+            <span>Game AI</span>
+            <span>Mobile Apps</span>
+        </div>
+    </section>
+
+    <section class="video-break"></section>
+
+    <section id="contact" class="content-section contact-section fade-in">
+        <h2>Contact <span>Me</span></h2>
+        <p>
+            Interested in working together, checking out my projects, or just connecting?
+            Feel free to reach out.
+        </p>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:sheldonsharp1124@gmail.com">sheldonsharp1124@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+13527106020">(352) 710-6020</a></p>
+        </div>
+
+        <div class="contact-buttons">
+            <a href="mailto:sheldonsharp1124@gmail.com">Email Me</a>
+            <a href="tel:+13527106020">Call Me</a>
+            <a href="https://github.com/sbstoned" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sheldon-sharp-01454a201/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Sheldon Sharp. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
